@@ -35,6 +35,47 @@ html, body{
     padding: 80px 0;
 }
 
+.text h1{
+    color: #222;
+    font-size: 3rem;
+}
+
+.bibli{
+    min-height: 100%;
+    width: 100%;
+    background-color: #222;
+    padding: 20px;
+}
+
+.bibli h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e5e5e5;
+}
+
+.bibli-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bibli-content a img{
+    width: 150px;
+    height: 230px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #888;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.bibli-content a img:hover{
+    filter: grayscale(0);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
 .book-content{
     display: flex;
     justify-content: center;

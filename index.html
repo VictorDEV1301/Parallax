@@ -15,7 +15,26 @@
 
 <body>
     <!--parallax-->
-    <section class="book" style="background-image: url(./assets/background/Background-1.jpg);">
+    <section class="book" style="background-color: #e5e5e5;">
+        <div class="book-mask" style="background-color: transparent;">
+            <div class="text">
+                <h1>BEM VINDO AO MEU MUNDO DE LIVROS!</h1>
+            </div>
+        </div><!--book-mask-->
+    </section><!--book-->
+
+    <section id="back" class="bibli">
+        <h1>ESCOLHA UM LIVRO OU ROLE PARA BAIXO E CURTA O PARALLAX.</h1>
+        <div class="bibli-content content">
+            <a href="#sapiens"><img src="./assets/books/Sapiens.jpg"></a>
+            <a href="#admiravel-mundo-novo"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
+            <a href="#como-a-mente-funciona"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
+            <a href="#o-senhor-das-moscas"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
+            <a href="#crime-e-castigo"><img src="./assets/books/Crime-e-castigo.jpg"></a>
+        </div>
+    </section>
+
+    <section id="sapiens" class="book" style="background-image: url(./assets/background/Background-1.jpg);">
         <div class="book-mask">
             <div class="book-content content">
                 <div class="book-info">
@@ -32,7 +51,7 @@
                             ancestrais, provavelmente não somos mais felizes. Um relato eletrizante sobre a aventura
                             de nossa extraordinária espécie ? de primatas insignificantes a senhores do mundo.</p>
                     </div>
-                    <img src="./assets/books/Sapiens.jpg">
+                    <a href="#back"><img src="./assets/books/Sapiens.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Sapiens.jpg">
@@ -42,7 +61,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
-    <section class="book" style="background-image: url(./assets/background/Background-2.jpg);">
+    <section id="admiravel-mundo-novo" class="book" style="background-image: url(./assets/background/Background-2.jpg);">
         <div class="book-mask">
             <div class="book-content content">
                 <div class="book-info">
@@ -57,7 +76,7 @@
                             alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade
                             contra a diversidade.</p>
                     </div>
-                    <img src="./assets/books/Admiravel-mundo-novo.jpg">
+                    <a href="#back"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Admiravel-mundo-novo.jpg">
@@ -67,7 +86,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
-    <section class="book" style="background-image: url(./assets/background/Background-3.jpg);">
+    <section id="como-a-mente-funciona" class="book" style="background-image: url(./assets/background/Background-3.jpg);">
         <div class="book-mask">
             <div class="book-content content">
                 <div class="book-info">
@@ -83,7 +102,7 @@
                             podemos estar bem próximos de uma das últimas fronteiras do conhecimento - a mente humana.
                         </p>
                     </div>
-                    <img src="./assets/books/Como-a-mente-funciona.jpg">
+                    <a href="#back"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Como-a-mente-funciona.jpg">
@@ -93,7 +112,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
-    <section class="book" style="background-image: url(./assets/background/Background-4.jpg);">
+    <section id="o-senhor-das-moscas" class="book" style="background-image: url(./assets/background/Background-4.jpg);">
         <div class="book-mask">
             <div class="book-content content">
                 <div class="book-info">
@@ -113,7 +132,7 @@
                             livro que retrata de maneira inigualável as áreas de sombra e escuridão da essência do ser
                             humano.</p>
                     </div>
-                    <img src="./assets/books/O-senhor-das-moscas.jpg">
+                    <a href="#back"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/O-senhor-das-moscas.jpg">
@@ -122,32 +141,31 @@
             </div><!--book-content-->
         </div><!--book-mask-->
     </section><!--book-->
-</body>
-
-<section class="book" style="background-image: url(./assets/background/Background-5.jpg);">
-    <div class="book-mask">
-        <div class="book-content content">
-            <div class="book-info">
-                <div class="book-info-text">
-                    <h1>Crime e castigo</h1>
-                    <p>Publicado em 1866, Crime e castigo é a obra mais célebre de Fiódor Dostoiévski. Neste livro,
-                        Raskólnikov, um jovem estudante, pobre e desesperado, perambula pelas ruas de São Petersburgo
-                        até cometer um crime que tentará justificar por uma teoria: grandes homens, como César ou
-                        Napoleão, foram assassinos absolvidos pela História. Este ato desencadeia uma narrativa
-                        labiríntica que arrasta o leitor por becos, tabernas e pequenos cômodos, povoados de personagens
-                        que lutam para preservar sua dignidade contra as várias formas da tirania. Esta é a primeira
-                        tradução direta da obra lançada no Brasil, e recebeu em 2002 o Prêmio Paulo Rónai de Tradução da
-                        Fundação Biblioteca Nacional.</p>
-                </div>
-                <img src="./assets/books/Crime-e-castigo.jpg">
-            </div><!--book-info-->
-            <div class="author-info">
-                <img src="./assets/authors/Crime-e-castigo.jpg">
-                <h1>Fiodor Dostoievski</h1>
-            </div><!--author-info-->
-        </div><!--book-content-->
-    </div><!--book-mask-->
-</section><!--book-->
+        
+    <section id="crime-e-castigo" class="book" style="background-image: url(./assets/background/Background-5.jpg);">
+        <div class="book-mask">
+            <div class="book-content content">
+                <div class="book-info">
+                    <div class="book-info-text">
+                        <h1>Crime e castigo</h1>
+                        <p>Publicado em 1866, Crime e castigo é a obra mais célebre de Fiódor Dostoiévski. Neste livro,
+                            Raskólnikov, um jovem estudante, pobre e desesperado, perambula pelas ruas de São Petersburgo
+                            até cometer um crime que tentará justificar por uma teoria: grandes homens, como César ou
+                            Napoleão, foram assassinos absolvidos pela História. Este ato desencadeia uma narrativa
+                            labiríntica que arrasta o leitor por becos, tabernas e pequenos cômodos, povoados de personagens
+                            que lutam para preservar sua dignidade contra as várias formas da tirania. Esta é a primeira
+                            tradução direta da obra lançada no Brasil, e recebeu em 2002 o Prêmio Paulo Rónai de Tradução da
+                            Fundação Biblioteca Nacional.</p>
+                    </div>
+                    <a href="#back"><img src="./assets/books/Crime-e-castigo.jpg"></a>
+                </div><!--book-info-->
+                <div class="author-info">
+                    <img src="./assets/authors/Crime-e-castigo.jpg">
+                    <h1>Fiodor Dostoievski</h1>
+                </div><!--author-info-->
+            </div><!--book-content-->
+        </div><!--book-mask-->
+    </section><!--book-->
 </body>
 
 </html>
