@@ -89,9 +89,9 @@ html, body{
 }
 
 .author-info img{
-    width: 90%;
-    max-width: 150px;
+    width: 150px;
     margin: 5px;
+    height: 150px;
     filter: grayscale(100%);
     border-radius: 50%;
 }
