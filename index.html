@@ -15,8 +15,8 @@
 
 <body>
     <!--parallax-->
-    <section class="book" style="background-color: #e5e5e5;">
-        <div class="book-mask" style="background-color: transparent;">
+    <section class="book" style="background-image: url(./assets/background/top.jpg);">
+        <div class="book-mask">
             <div class="text">
                 <h1>BEM VINDO AO MEU MUNDO DE LIVROS!</h1>
             </div>
@@ -24,16 +24,19 @@
     </section><!--book-->
 
     <section id="back" class="bibli">
-        <h1>ESCOLHA UM LIVRO OU ROLE PARA BAIXO E CURTA O PARALLAX.</h1>
-        <div class="bibli-content content">
-            <a href="#sapiens"><img src="./assets/books/Sapiens.jpg"></a>
-            <a href="#admiravel-mundo-novo"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
-            <a href="#como-a-mente-funciona"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
-            <a href="#o-senhor-das-moscas"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
-            <a href="#crime-e-castigo"><img src="./assets/books/Crime-e-castigo.jpg"></a>
+        <div class="book-mask" style="flex-direction: column;">
+            <h1>ESCOLHA UM LIVRO OU ROLE PARA BAIXO E CURTA O PARALLAX.</h1>
+            <div class="bibli-content content">
+                <a id="sapiens-back" href="#sapiens"><img src="./assets/books/Sapiens.jpg"></a>
+                <a id="admiravel-mundo-novo-back" href="#admiravel-mundo-novo"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
+                <a id="como-a-mente-funciona-back" href="#como-a-mente-funciona"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
+                <a id="o-senhor-das-moscas-back" href="#o-senhor-das-moscas"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
+                <a id="crime-e-castigo-back" href="#crime-e-castigo"><img src="./assets/books/Crime-e-castigo.jpg"></a>
+            </div>
         </div>
     </section>
-
+    
+    <!-- sapiens -->
     <section id="sapiens" class="book" style="background-image: url(./assets/background/Background-1.jpg);">
         <div class="book-mask">
             <div class="book-content content">
@@ -51,7 +54,7 @@
                             ancestrais, provavelmente não somos mais felizes. Um relato eletrizante sobre a aventura
                             de nossa extraordinária espécie ? de primatas insignificantes a senhores do mundo.</p>
                     </div>
-                    <a href="#back"><img src="./assets/books/Sapiens.jpg"></a>
+                    <a href="#sapiens-back"><img src="./assets/books/Sapiens.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Sapiens.jpg">
@@ -61,6 +64,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
+    <!-- Admirável mundo novo -->
     <section id="admiravel-mundo-novo" class="book" style="background-image: url(./assets/background/Background-2.jpg);">
         <div class="book-mask">
             <div class="book-content content">
@@ -76,7 +80,7 @@
                             alienação; um universo que louva o avanço da técnica, a produção em série, a uniformidade
                             contra a diversidade.</p>
                     </div>
-                    <a href="#back"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
+                    <a href="#admiravel-mundo-novo-back"><img src="./assets/books/Admiravel-mundo-novo.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Admiravel-mundo-novo.jpg">
@@ -86,6 +90,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
+    <!-- Como a mente funciona -->
     <section id="como-a-mente-funciona" class="book" style="background-image: url(./assets/background/Background-3.jpg);">
         <div class="book-mask">
             <div class="book-content content">
@@ -102,7 +107,7 @@
                             podemos estar bem próximos de uma das últimas fronteiras do conhecimento - a mente humana.
                         </p>
                     </div>
-                    <a href="#back"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
+                    <a href="#como-a-mente-funciona-back"><img src="./assets/books/Como-a-mente-funciona.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Como-a-mente-funciona.jpg">
@@ -112,6 +117,7 @@
         </div><!--book-mask-->
     </section><!--book-->
 
+    <!-- O senhor das moscas -->
     <section id="o-senhor-das-moscas" class="book" style="background-image: url(./assets/background/Background-4.jpg);">
         <div class="book-mask">
             <div class="book-content content">
@@ -132,7 +138,7 @@
                             livro que retrata de maneira inigualável as áreas de sombra e escuridão da essência do ser
                             humano.</p>
                     </div>
-                    <a href="#back"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
+                    <a href="#o-senhor-das-moscas-back"><img src="./assets/books/O-senhor-das-moscas.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/O-senhor-das-moscas.jpg">
@@ -141,7 +147,8 @@
             </div><!--book-content-->
         </div><!--book-mask-->
     </section><!--book-->
-        
+    
+    <!-- Crime e castigo -->
     <section id="crime-e-castigo" class="book" style="background-image: url(./assets/background/Background-5.jpg);">
         <div class="book-mask">
             <div class="book-content content">
@@ -157,7 +164,7 @@
                             tradução direta da obra lançada no Brasil, e recebeu em 2002 o Prêmio Paulo Rónai de Tradução da
                             Fundação Biblioteca Nacional.</p>
                     </div>
-                    <a href="#back"><img src="./assets/books/Crime-e-castigo.jpg"></a>
+                    <a href="#crime-e-castigo-back"><img src="./assets/books/Crime-e-castigo.jpg"></a>
                 </div><!--book-info-->
                 <div class="author-info">
                     <img src="./assets/authors/Crime-e-castigo.jpg">
